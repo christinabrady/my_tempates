@@ -1,0 +1,12 @@
+---
+title:
+output: html_document
+always_allow_html: yes
+---
+
+```{r include = F}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+```
+
+Report as of `r format(Sys.Date(), "%B %d, %Y")`.
